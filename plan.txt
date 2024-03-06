@@ -1,0 +1,11 @@
+done: create directory structure
+done: create a npm project and install all dependancies
+    - dependancies
+        -express
+        -ejs express-ejs-layout
+    - Dev dependancies
+        - nodemon
+done: create express server - create a server.js file
+done: git setup and first commit
+done: install laravel mix
+
