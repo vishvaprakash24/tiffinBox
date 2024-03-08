@@ -20,3 +20,35 @@ nav li a:hover {
   color: #FC8019;
 }
 
+.button {
+  padding: 10px 15px;
+  background: #FC8019;
+  outline: none;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.hero:after {
+  content: "";
+  background: #FC8019;
+  filter: blur(8px);
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  z-index: -3;
+  animation: anime 3s linear infinite alternate;
+}
+
+@keyframes anime {
+  from {
+    transform: translate(-10%, -10%);
+  }
+
+  to {
+    transform: translate(10%, 10%);
+  }
+}
+
