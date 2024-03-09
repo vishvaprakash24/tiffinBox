@@ -1,5 +1,9 @@
 @import './variables';
-
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+}
 body{
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -23,6 +27,13 @@ nav li a{
     outline: none;
     color: #fff;
     border-radius: 25px;
+    transition: $smooth;
+    &:hover{
+        background: $primary-hover;
+    }
+}
+.hero{
+    background: $secondary;
 }
 .hero:after{
     content: "";
@@ -47,3 +58,29 @@ nav li a{
     }
     
 }
+.size{
+    background: $secondary;
+}
+
+.add-to-cart{
+    border: 2px solid $primary;
+    color: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary;
+        border: $pure;
+        color: $pure;
+    }
+}
+
+section.cart{
+    background: $secondary;
+    .amount{
+        color: $primary;
+    }
+    .cart-button{
+        background: $primary;
+        color: $pure;
+    }
+}
+

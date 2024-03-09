@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-origin: border-box;
+}
+
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +32,15 @@ nav li a:hover {
   outline: none;
   color: #fff;
   border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: #b23301;
+}
+
+.hero {
+  background: #F8F8F8;
 }
 
 .hero:after {
@@ -50,5 +65,34 @@ nav li a:hover {
   to {
     transform: translate(10%, 10%);
   }
+}
+
+.size {
+  background: #F8F8F8;
+}
+
+.add-to-cart {
+  border: 2px solid #FC8019;
+  color: #FC8019;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+  background: #FC8019;
+  border: #fff;
+  color: #fff;
+}
+
+section.cart {
+  background: #F8F8F8;
+}
+
+section.cart .amount {
+  color: #FC8019;
+}
+
+section.cart .cart-button {
+  background: #FC8019;
+  color: #fff;
 }
 
