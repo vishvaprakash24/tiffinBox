@@ -61,32 +61,8 @@ section.login .login-btn:hover {
   background: #f5a328;
 }
 
-.hero {
+section.hero {
   background: #F8F8F8;
-}
-
-.hero:after {
-  content: "";
-  background: #FC8019;
-  filter: blur(8px);
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  position: absolute;
-  top: 60%;
-  left: 80%;
-  z-index: -3;
-  animation: anime 3s linear infinite alternate;
-}
-
-@keyframes anime {
-  from {
-    transform: translate(-10%, -10%);
-  }
-
-  to {
-    transform: translate(10%, 10%);
-  }
 }
 
 .size {

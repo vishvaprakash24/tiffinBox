@@ -8,4 +8,11 @@ done: create a npm project and install all dependancies
 done: create express server - create a server.js file
 done: git setup and first commit
 done: install laravel mix
+done: create Home page using html adn CSS.
+    - include tailwind CSS
+done: create cart page
+    - order summary section
+    - empty cart section
+    
+: create order controller and link it in server.js
 
