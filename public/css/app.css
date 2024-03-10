@@ -15,7 +15,7 @@ nav li:last-child a {
 }
 
 nav li:last-child a:hover {
-  background: #b23301;
+  background: #f5a328;
 }
 
 nav li a {
@@ -23,6 +23,10 @@ nav li a {
 }
 
 nav li a:hover {
+  color: #FC8019;
+}
+
+.primary {
   color: #FC8019;
 }
 
@@ -36,7 +40,25 @@ nav li a:hover {
 }
 
 .button:hover {
-  background: #b23301;
+  background: #f5a328;
+}
+
+section.login {
+  background-color: #F8F8F8;
+  height: calc(100vh - 100px);
+}
+
+section.login .login-btn {
+  background: #FC8019;
+  padding: 10px 15px;
+  background: #FC8019;
+  color: #fff;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+section.login .login-btn:hover {
+  background: #f5a328;
 }
 
 .hero {
