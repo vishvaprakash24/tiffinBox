@@ -13,6 +13,20 @@ done: create Home page using html adn CSS.
 done: create cart page
     - order summary section
     - empty cart section
-    
+done: move routes to routes files
+done: create dedicated controllers
+
+done: add to cart functionality
+    done- Fetch all menu-items from db and show on home page
+    done- Create menu model and put dummy data
+        - connect to mongodb
+        -use connect-mongo for session store
+            -dependencies
+                -mongoose, express-session, connect-mongo, dotenv
+    - axios to send ajax request
+    -install notification library npm i noty
+
 : create order controller and link it in server.js
+: 
+    
 
